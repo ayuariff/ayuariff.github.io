@@ -1,0 +1,54 @@
+# =====================================================================
+#  SITE SETTINGS — edit this file to update your details.
+#  Lines starting with # are notes and are ignored.
+#  Anything left empty ("") is simply hidden on the website,
+#  so you can fill these in whenever you have the information.
+#  After saving, GitHub rebuilds the site in about 1–2 minutes.
+# =====================================================================
+
+title: "Ts. Mas Ayu Mohd Ariff"
+name: "Mas Ayu Mohd Ariff"
+honorific: "Ts."                      # Professional Technologist title
+role: "Cybersecurity Educator and PhD Researcher"
+affiliation: "Faculty of Computing, Universiti Teknologi Malaysia"
+description: "Ts. Mas Ayu Mohd Ariff — cybersecurity educator and PhD student at Universiti Teknologi Malaysia researching online scam victimization and digital consumer protection."
+url: "https://ayuariff.github.io"
+baseurl: ""
+
+# ---------- Contact ----------
+email: ""                 # e.g. "yourname@graduate.utm.my" — shows an Email button when filled
+linkedin: "https://www.linkedin.com/in/ayuariff"
+scholar: "https://scholar.google.com/citations?user=yN_t14EAAAAJ&hl=en"
+orcid: "0009-0007-1449-3116"
+researchgate: "https://www.researchgate.net/profile/Mas-Ayu-Mohd-Ariff-3"
+office: ""                # e.g. "Faculty of Computing, UTM Johor Bahru, 81310 Johor"
+
+# ---------- Professional ----------
+mbot_field: "Cybersecurity"
+mbot_number: ""           # e.g. "PT21000123" — shown on the About page when filled
+cv: ""                    # upload your CV to the files/ folder, then put "/files/cv.pdf" here
+
+# ---------- PhD research ----------
+research:
+  title: "Online Scam Victimization"
+  subtitle: "An ontology-driven knowledge graph for digital consumer protection"
+  started: "October 2025"
+  status: "In progress"
+  funding: "Hadiah Latihan Persekutuan (HLP)"
+  supervisor: ""          # e.g. "Assoc. Prof. Dr. Name"
+  supervisor_url: ""      # link to supervisor's UTM profile
+  co_supervisor: ""
+  co_supervisor_url: ""
+  # --- Fill in when you start recruiting participants ---
+  recruiting: false       # change to true to show the "Take part" section
+  form_url: ""            # Google Forms / Microsoft Forms link
+  ethics: ""              # e.g. "UTMREC-2027-01 (approved Jan 2027)"
+  info_sheet: ""          # e.g. "/files/participant-information-sheet.pdf"
+  consent_form: ""        # e.g. "/files/consent-form.pdf"
+  intro_letter: ""        # e.g. "/files/introduction-letter.pdf"
+
+# ---------- Build settings (no need to change) ----------
+timezone: Asia/Kuala_Lumpur
+exclude:
+  - README.md
+  - HOW-TO-UPDATE.md

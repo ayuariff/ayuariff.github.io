@@ -1,0 +1,27 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+description: "Research papers, books and innovation projects by Ts. Mas Ayu Mohd Ariff."
+---
+<h1 class="h2">Publications</h1>
+<p class="lead">Research, books, and innovation and projects, newest first. Full records are on <a href="{{ site.scholar }}" target="_blank" rel="noopener">Google Scholar</a> and <a href="https://orcid.org/{{ site.orcid }}" target="_blank" rel="noopener">ORCID</a>.</p>
+<div class="tabs" role="group" aria-label="Filter publications">
+  <button aria-pressed="true" data-f="all">All</button>
+  <button aria-pressed="false" data-f="research">Research</button>
+  <button aria-pressed="false" data-f="book">Books</button>
+  <button aria-pressed="false" data-f="innovation">Innovation &amp; Project</button>
+</div>
+<ul class="pubs" id="pubs">
+  {% for p in site.data.publications %}
+  <li data-k="{{ p.type }}">
+    <span class="yr">{{ p.year }}</span>
+    <div>
+      <div class="t">{% if p.link and p.link != "" %}<a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</div>
+      <div class="a">{{ p.authors }}</div>
+      {% if p.venue and p.venue != "" %}<div class="v">{{ p.venue }}</div>{% endif %}
+      <span class="k">{% if p.type == "research" %}Research{% elsif p.type == "book" %}Book{% else %}Innovation &amp; Project{% endif %}</span>
+    </div>
+  </li>
+  {% endfor %}
+</ul>

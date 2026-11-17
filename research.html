@@ -1,0 +1,77 @@
+---
+layout: default
+title: Research
+permalink: /research/
+description: "PhD research by Ts. Mas Ayu Mohd Ariff at Universiti Teknologi Malaysia: an ontology-driven knowledge graph of online scam victimization for digital consumer protection."
+---
+<p class="eyebrow">PhD research · Universiti Teknologi Malaysia</p>
+<h1 class="h2">{{ site.research.title }}</h1>
+<p class="lead">{{ site.research.subtitle | append: "." }}</p>
+
+<div class="research">
+  <div class="research-main">
+    <section class="block">
+      <h2 class="h3">What this research is about</h2>
+      <p>Online scams cause financial loss and real harm to a growing number of people. Information about how scams work, who they reach and how victims are affected is often spread across many sources, which makes the bigger picture hard to see.</p>
+      <p>This research develops an <strong>ontology</strong> of online scam victimization: a shared, structured way of describing scams, the people they affect and how the two are connected. The ontology is then used to build a <strong>knowledge graph</strong> that links this information together.</p>
+    </section>
+
+    <section class="block">
+      <h2 class="h3">Research aim</h2>
+      <p>To develop an ontology-driven knowledge graph of online scam victimization for digital consumer protection.</p>
+    </section>
+
+    <section class="block">
+      <h2 class="h3">Why it matters</h2>
+      <p>Once complete, the knowledge graph is intended to help agencies trace the relationships between scams, so they can better understand scam patterns and strengthen digital consumer protection.</p>
+    </section>
+
+    <section class="block">
+      <h2 class="h3">Experts I would like to hear from</h2>
+      <p>I welcome contact from experts and practitioners in:</p>
+      <ul class="tick">
+        <li>Cybersecurity</li>
+        <li>Digital consumer protection</li>
+        <li>Criminology</li>
+        <li>Victimology</li>
+        <li>Related fields, such as fraud investigation and online safety</li>
+      </ul>
+      {% if site.research.recruiting %}
+      <p>The study is now looking for participants. Details are below.</p>
+      {% else %}
+      <p>The study is in progress, and experts may be invited to share their views as it develops. If this area is part of your work and you are open to being contacted, I would be glad to hear from you.</p>
+      {% endif %}
+      <div class="actions">
+        {% if site.email != "" %}<a class="btn" href="mailto:{{ site.email }}?subject=Online%20scam%20victimization%20research">Email me about the research</a>{% endif %}
+        <a class="btn {% if site.email != '' %}ghost{% endif %}" href="{{ site.linkedin }}" target="_blank" rel="noopener">Connect on LinkedIn</a>
+      </div>
+    </section>
+
+    {% if site.research.recruiting %}
+    <section class="block participate" id="participate">
+      <h2 class="h3">Take part in the study</h2>
+      {% if site.research.form_url != "" %}<p><a class="btn" href="{{ site.research.form_url }}" target="_blank" rel="noopener">Register your interest</a></p>{% endif %}
+      {% if site.research.ethics != "" %}<p><strong>Ethics approval:</strong> {{ site.research.ethics }}</p>{% endif %}
+      <ul class="docs">
+        {% if site.research.info_sheet != "" %}<li><a href="{{ site.research.info_sheet }}">Participant information sheet (PDF)</a></li>{% endif %}
+        {% if site.research.consent_form != "" %}<li><a href="{{ site.research.consent_form }}">Consent form (PDF)</a></li>{% endif %}
+        {% if site.research.intro_letter != "" %}<li><a href="{{ site.research.intro_letter }}">Introduction letter from the faculty (PDF)</a></li>{% endif %}
+      </ul>
+    </section>
+    {% endif %}
+  </div>
+
+  <aside class="panel facts" aria-label="Study details">
+    <h2 class="h3">At a glance</h2>
+    <dl>
+      <dt>Status</dt><dd><span class="status">{{ site.research.status }}</span></dd>
+      <dt>Started</dt><dd>{{ site.research.started }}</dd>
+      <dt>Researcher</dt><dd>{{ site.honorific }} {{ site.name }}, PhD student</dd>
+      <dt>Institution</dt><dd>{{ site.affiliation }}</dd>
+      {% if site.research.supervisor != "" %}<dt>Supervisor</dt><dd>{% if site.research.supervisor_url != "" %}<a href="{{ site.research.supervisor_url }}" target="_blank" rel="noopener">{{ site.research.supervisor }}</a>{% else %}{{ site.research.supervisor }}{% endif %}</dd>{% endif %}
+      {% if site.research.co_supervisor != "" %}<dt>Co-supervisor</dt><dd>{% if site.research.co_supervisor_url != "" %}<a href="{{ site.research.co_supervisor_url }}" target="_blank" rel="noopener">{{ site.research.co_supervisor }}</a>{% else %}{{ site.research.co_supervisor }}{% endif %}</dd>{% endif %}
+      {% if site.research.funding != "" %}<dt>Sponsorship</dt><dd>{{ site.research.funding }}</dd>{% endif %}
+      <dt>Keywords</dt><dd>Online scams, victimization, ontology, knowledge graph, digital consumer protection</dd>
+    </dl>
+  </aside>
+</div>

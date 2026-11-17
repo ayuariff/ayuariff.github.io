@@ -1,0 +1,28 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+description: "Projects and contributions by Ts. Mas Ayu Mohd Ariff: CTF team development, Cyber Range Academy, curriculum development and professional service."
+---
+<h1 class="h2">Projects and contributions</h1>
+<p class="lead">Talent development, curriculum work and professional service in cybersecurity.</p>
+<div class="cards">
+  {% for p in site.data.projects %}
+  {% if p.featured %}
+  <article class="feature">
+    <div>
+      <span class="tag">{{ p.period }}</span>
+      <h2 class="h3">{{ p.title }}</h2>
+      {% if p.place %}<p>{{ p.place }}</p>{% endif %}
+    </div>
+    <p>{{ p.text }}</p>
+  </article>
+  {% else %}
+  <article class="card">
+    <p class="meta">{{ p.period }}</p>
+    <h2 class="h3">{{ p.title }}</h2>
+    <p>{{ p.text }}</p>
+  </article>
+  {% endif %}
+  {% endfor %}
+</div>

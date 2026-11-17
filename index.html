@@ -1,0 +1,52 @@
+---
+layout: default
+---
+{% assign n_research = 0 %}{% assign n_book = 0 %}
+{% for p in site.data.publications %}{% if p.type == "research" %}{% assign n_research = n_research | plus: 1 %}{% elsif p.type == "book" %}{% assign n_book = n_book | plus: 1 %}{% endif %}{% endfor %}
+
+<div class="hero">
+  <div>
+    <p class="role">{{ site.role }}</p>
+    <h1><span class="hon">{{ site.honorific }}</span> {{ site.name }}</h1>
+    <p class="title">{{ site.affiliation }}</p>
+    <p class="intro">I am a cybersecurity educator with more than sixteen years of teaching experience, ten of them in cybersecurity, and a Professional Technologist registered with the Malaysia Board of Technologists. I build Capture the Flag (CTF) teams that give students hands-on security skills. As a PhD student, I now research online scam victimization and how knowledge graphs can strengthen digital consumer protection.</p>
+    <div class="actions">
+      <a class="btn" href="/research/">My research</a>
+      <a class="btn ghost" href="/projects/">See my work</a>
+      {% if site.cv != "" %}<a class="btn ghost" href="{{ site.cv }}" download>Download CV</a>{% endif %}
+    </div>
+  </div>
+  <figure class="photo">
+    <img src="/assets/img/profile.jpg" alt="{{ site.name }} speaking with a microphone at a cybersecurity event" width="600" height="750">
+    <figcaption><strong>PhD Researcher</strong>Online scam victimization, UTM</figcaption>
+  </figure>
+</div>
+
+<div class="stats">
+  <div><strong>16+</strong><span>Years teaching</span></div>
+  <div><strong>10</strong><span>Years in cybersecurity</span></div>
+  <div><strong>{{ n_research }}</strong><span>Research papers</span></div>
+  <div><strong>{{ n_book }}</strong><span>Books and workbooks</span></div>
+</div>
+
+<a class="teaser" href="/research/">
+  <span class="tag">Current research · {{ site.research.status }}</span>
+  <span class="teaser-body">
+    <strong>{{ site.research.title }}</strong>
+    <span>{{ site.research.subtitle }}</span>
+  </span>
+  <span class="arrow" aria-hidden="true">→</span>
+</a>
+
+<div class="profiles">
+  <p>Find me on</p>
+  <a class="chip" href="{{ site.scholar }}" target="_blank" rel="noopener">Google Scholar</a>
+  <a class="chip" href="https://orcid.org/{{ site.orcid }}" target="_blank" rel="noopener">ORCID</a>
+  <a class="chip" href="{{ site.researchgate }}" target="_blank" rel="noopener">ResearchGate</a>
+  <a class="chip" href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+</div>
+
+<script>
+  /* Old links like ayuariff.github.io/#publications still work */
+  (function(){var h=location.hash.slice(1);var ok=["about","research","projects","publications","contact"];if(ok.indexOf(h)>-1)location.replace("/"+h+"/");})();
+</script>
