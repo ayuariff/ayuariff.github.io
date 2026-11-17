@@ -1,0 +1,12 @@
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <nav class="wrap nav" aria-label="Main">
+    <a class="brand" href="/"><img class="avatar" src="/assets/img/avatar.jpg" alt="" width="38" height="38">{{ site.name }}</a>
+    <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">☰</button>
+    <ul class="menu" id="menu">
+      {% for item in site.data.navigation %}
+      <li><a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

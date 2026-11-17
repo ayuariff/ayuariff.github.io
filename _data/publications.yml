@@ -1,0 +1,93 @@
+# =====================================================================
+#  PUBLICATIONS — newest first.
+#  To add one, copy a block (from "- year" down), paste it at the TOP
+#  of the list, and change the details. Keep the same indentation.
+#
+#  type:  research | book | innovation
+#  link:  optional — a DOI or PDF link, e.g. "https://doi.org/10.xxxx"
+#  venue: optional — journal, conference or publisher
+# =====================================================================
+
+- year: 2026
+  type: innovation
+  title: "Talent Development Framework for Sustainability of Team Development"
+  authors: "Mas Ayu Mohd Ariff, Siti Rohani Sukaimi, Wan Muhammad Ikmal Mohd Tarmizi"
+  venue: ""
+  link: ""
+
+- year: 2026
+  type: research
+  title: "Bridging Gaps in Mobility Exchange: Introductory Capture the Flag for IT and Non-IT Indonesian Students"
+  authors: "Mas Ayu Mohd Ariff, Siti Rohani Sukaimi, Muhammad Murshid Ramlan"
+  venue: ""
+  link: ""
+
+- year: 2025
+  type: research
+  title: "Educator's Perspective on Using Capture the Flag as a Learning Platform"
+  authors: "Mas Ayu Mohd Ariff, Nor Azimah Ibrahim, Muhammad Murshid Ramlan"
+  venue: ""
+  link: ""
+
+- year: 2024
+  type: research
+  title: "Cybersecurity Knowledge and Practices: A Survey of Students and Staff at Politeknik Mersing"
+  authors: "Norshadila Ahmad Badela, Mas Ayu Mohd Ariff, Puziah Haiza Pazui"
+  venue: ""
+  link: ""
+
+- year: 2023
+  type: research
+  title: "The Perception of E-books Usage Among Diploma in Information Technology (Digital Technology) Students in Jabatan Teknologi Maklumat & Komunikasi, Politeknik Mersing"
+  authors: "Norshadila Ahmad Badela, Mas Ayu Mohd Ariff"
+  venue: ""
+  link: ""
+
+- year: 2023
+  type: research
+  title: "eVOT: Sistem Pengurusan VOT Kewangan di Politeknik Mersing"
+  authors: "Siti Rohani Sukaimi, Mas Ayu Mohd Ariff, Irma Maaman"
+  venue: ""
+  link: ""
+
+- year: 2022
+  type: book
+  title: "Final Year Project (A Poster Design Cookbook)"
+  authors: "Mas Ayu Mohd Ariff, Norshadila Ahmad Badela, Zainolrin Saari"
+  venue: ""
+  link: ""
+
+- year: 2021
+  type: book
+  title: "Basic Network for Ethical Hacking"
+  authors: "Mas Ayu Mohd Ariff, Siti Rohani Sukaimi"
+  venue: ""
+  link: ""
+
+- year: 2021
+  type: book
+  title: "Basic Network for Ethical Hacking: Port (Pocket Series)"
+  authors: "Mas Ayu Mohd Ariff, Siti Rohani Sukaimi"
+  venue: ""
+  link: ""
+
+- year: 2021
+  type: book
+  title: "Database Design Workbook"
+  authors: "Puziah Haiza Pazui, Norshadila Ahmad Badela, Mas Ayu Mohd Ariff"
+  venue: ""
+  link: ""
+
+- year: 2017
+  type: research
+  title: "Persepsi Pelajar Terhadap Program Inovasi dan Pameran Projek Tahun Akhir (PIEx) 2017, Politeknik Mersing"
+  authors: "Mas Ayu Mohd Ariff, Noradilah Sukor"
+  venue: ""
+  link: ""
+
+- year: 2014
+  type: research
+  title: "Kajian Terhadap Penggunaan JQuery Mobile Dalam Kursus Mobile Development di Politeknik Mersing, Johor"
+  authors: "Mas Ayu Mohd Ariff, Nurul Ashikin Abd Samad"
+  venue: ""
+  link: ""

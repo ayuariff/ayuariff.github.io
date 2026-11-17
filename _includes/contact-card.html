@@ -1,0 +1,18 @@
+<div class="contact">
+  <div>
+    <h2>Let's connect</h2>
+    <p>I welcome collaboration on cybersecurity education, CTF training and research on online scams and digital consumer protection.{% if site.email != "" %} For research enquiries, email is the best way to reach me.{% else %} The best way to reach me is through LinkedIn.{% endif %}</p>
+    <div class="actions">
+      {% if site.email != "" %}<a class="btn light" href="mailto:{{ site.email }}">Email me</a>{% endif %}
+      <a class="btn {% if site.email != '' %}ghost-light{% else %}light{% endif %}" href="{{ site.linkedin }}" target="_blank" rel="noopener">Message on LinkedIn</a>
+    </div>
+  </div>
+  <ul>
+    {% if site.email != "" %}<li><small>Email</small><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>{% endif %}
+    <li><small>LinkedIn</small><a href="{{ site.linkedin }}" target="_blank" rel="noopener">linkedin.com/in/ayuariff</a></li>
+    <li><small>Google Scholar</small><a href="{{ site.scholar }}" target="_blank" rel="noopener">{{ site.name }}</a></li>
+    <li><small>ORCID</small><a href="https://orcid.org/{{ site.orcid }}" target="_blank" rel="noopener">{{ site.orcid }}</a></li>
+    <li><small>ResearchGate</small><a href="{{ site.researchgate }}" target="_blank" rel="noopener">{{ site.name }}</a></li>
+    <li><small>Affiliation</small><span>{% if site.office != "" %}{{ site.office }}{% else %}{{ site.affiliation }}{% endif %}</span></li>
+  </ul>
+</div>

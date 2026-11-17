@@ -1,0 +1,12 @@
+<footer>
+  <div class="wrap foot">
+    <p>© {{ site.time | date: "%Y" }} {{ site.honorific }} {{ site.name }} · {{ site.affiliation }}</p>
+    <p class="foot-links">
+      <a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="{{ site.scholar }}" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://orcid.org/{{ site.orcid }}" target="_blank" rel="noopener">ORCID</a>
+      <a href="{{ site.researchgate }}" target="_blank" rel="noopener">ResearchGate</a>
+    </p>
+    <p class="updated">Last updated {{ site.time | date: "%-d %B %Y" }}</p>
+  </div>
+</footer>

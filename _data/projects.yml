@@ -1,0 +1,27 @@
+# =====================================================================
+#  PROJECTS AND CONTRIBUTIONS — newest or most important first.
+#  featured: true  makes a project show as the large card at the top
+#  (use it for one project only).
+# =====================================================================
+
+- period: "2022 – 2024"
+  title: "CTF Team Development"
+  place: "Politeknik Mersing, Johor"
+  featured: true
+  text: "Built Capture the Flag teams together with the Cyber Range Academy team, training students in practical offensive and defensive security skills through structured challenges and competitions. This work grew into the Talent Development Framework for sustaining CTF teams."
+
+- period: "2026"
+  title: "Rapporteur, National Cyber Security Summit 2026"
+  text: "Documented discussions and outcomes for the summit."
+
+- period: "July 2022 – Dec 2024"
+  title: "Lead, Cyber Range Academy"
+  text: "Managed cybersecurity activities at Politeknik Mersing, including the Cyber Range Academy Conference 2023, internal CTF competitions, awareness programmes and the Cyber Sphere publication."
+
+- period: "2023 – 2025"
+  title: "Assistant Leader, Curriculum Development Team (Information Security)"
+  text: "Supported the development of the information security curriculum."
+
+- period: "2021 – 2025"
+  title: "Curriculum Developer, Ethical Hacking"
+  text: "Developed course content for ethical hacking."
